@@ -1,4 +1,5 @@
 * {
+    appearance: none;
     margin: 0;
     padding: 0;
     border: 0;
@@ -6,10 +7,17 @@
 body {
     text-align: center;
 }
-#search-box {
-    padding: 10px;
-    margin: 10px;
+.top-nav {
+    text-decoration: none;
 }
-button {
-    margin: 10px;
+#apps {
+    height: 1.5rem;
+    width: auto;
+}
+#sign-in {
+    background-color: blue;
+    color: white;
+}
+.bottom-nav {
+    text-decoration: none;
 }
