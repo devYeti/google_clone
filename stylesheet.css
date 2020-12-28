@@ -3,24 +3,28 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-size: 16px;
 }
 body {
     text-align: center;
 }
 a {
     text-decoration: none;
+    color: rgb(94, 93, 93);
 }
 #top-nav-main {
-    display: flex;
+    display: block;
+    padding: 1rem;
 }
 .top-left {
     float: left;
+    font-size: .75rem;
+    padding: 0.5rem;
 }
 .top-right {
     float: right;
-}
-.top-left .top-right {
-    display: block;
+    font-size: .75rem;
+    padding: 0.5rem;
 }
 #apps {
     height: 1.5rem;
