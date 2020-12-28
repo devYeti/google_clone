@@ -7,6 +7,7 @@
 }
 body {
     text-align: center;
+    font-family: arial,sans-serif;
 }
 a {
     text-decoration: none;
@@ -27,17 +28,36 @@ a {
     padding: 0.5rem;
 }
 #apps {
-    height: 1.5rem;
+    height: 1.25rem;
     width: auto;
     opacity: 0.5;
+}
+#apps:hover {
+    opacity: initial;
+}
+a:hover {
+    text-decoration: underline;
 }
 #sign-in {
     background-color: blue;
     color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;;
 }
 #search-box {
     border: 1px solid rgb(151, 147, 147);
 }
-.bottom-nav {
-    text-decoration: none;
+footer {
+    background-color: rgb(228, 226, 226);
+}
+#bottom-nav-main {
+    display: block;
+}
+.bottom-left {
+    float: left;
+    padding: 0.5rem;
+}
+.bottom-right {
+    float: right;
+    padding: 0.5rem;
 }
