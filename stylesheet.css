@@ -26,13 +26,13 @@ a:hover {
 }
 .top-left {
     float: left;
-    font-size: .75rem;
+    font-size: .8rem;
     padding: 0.5rem;
     text-align: center;
 }
 .top-right {
     float: right;
-    font-size: .75rem;
+    font-size: .8rem;
     padding: 0.5rem;
     text-align: center;
 }
@@ -45,18 +45,28 @@ a:hover {
     opacity: initial;
 }
 #sign-in {
-    background-color: blue;
+    background-color: rgb(103, 103, 253);
     color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
     margin-left: 1rem;
-    margin-right: 1rem;;
+    margin-right: 2rem;
+    border-radius: 3px;
+}
+main {
+    padding-top: 10%;
 }
 #search-box {
-    border: 1px solid rgb(151, 147, 147);
+    width: 30%;
+    height: 3rem;
+    border: 1px solid rgb(182, 181, 181);
     margin: 1rem;
     background-image: url(/images/mag-glass.png);
-    background-position: left;
+    background-position: 1rem;
     background-repeat: no-repeat;
     background-size: 1rem;
+    opacity: 0.5;
+    border-radius: 25px;
 }
 button {
     padding: 0.5rem;
