@@ -45,10 +45,9 @@ a:hover {
     opacity: initial;
 }
 #sign-in {
-    background-color: rgb(103, 103, 253);
+    background-color: rgb(111, 111, 247);
     color: white;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.3rem 1rem;
     margin-left: 1rem;
     margin-right: 2rem;
     border-radius: 3px;
@@ -57,10 +56,11 @@ main {
     padding-top: 10%;
 }
 #search-box {
-    width: 30%;
-    height: 3rem;
+    width: 27%;
+    height: 2.75rem;
     border: 1px solid rgb(182, 181, 181);
-    margin: 1rem;
+    margin: 2rem;
+    padding-left: 3rem;
     background-image: url(/images/mag-glass.png);
     background-position: 1rem;
     background-repeat: no-repeat;
@@ -102,7 +102,4 @@ button:hover {
     padding: 0.8rem;
     text-align: center;
     font-size: 0.85rem;
-}
-#settings {
-    margin-left: 2rem;
 }
