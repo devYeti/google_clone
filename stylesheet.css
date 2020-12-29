@@ -61,7 +61,7 @@ main {
     border: 1px solid rgb(182, 181, 181);
     margin: 2rem;
     padding-left: 3rem;
-    background-image: url(/images/mag-glass.png);
+    background-image: url(images/mag-glass.png);
     background-position: 1rem;
     background-repeat: no-repeat;
     background-size: 1rem;
