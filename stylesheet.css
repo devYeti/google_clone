@@ -13,6 +13,9 @@ a {
     text-decoration: none;
     color: rgb(94, 93, 93);
 }
+a:hover {
+    text-decoration: underline;
+}
 #top-nav-main {
     display: block;
     padding: 1rem;
@@ -41,9 +44,6 @@ a {
 #apps:hover {
     opacity: initial;
 }
-a:hover {
-    text-decoration: underline;
-}
 #sign-in {
     background-color: blue;
     color: white;
@@ -53,6 +53,10 @@ a:hover {
 #search-box {
     border: 1px solid rgb(151, 147, 147);
     margin: 1rem;
+    background-image: url(/images/mag-glass.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 1rem;
 }
 button {
     padding: 0.5rem;
@@ -65,7 +69,7 @@ button {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: rgb(228, 226, 226);
+    background-color: rgb(243, 243, 243);
 }
 .bottom-left {
     float: left;
